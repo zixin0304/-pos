@@ -1,0 +1,19 @@
+
+/*success*/
+.button {
+	-fx-background-color: #5cb85c;
+}
+
+.button {
+	-fx-border-color: #ffffff;
+}
+
+/*hover state*/
+.button:hover {
+	-fx-border-color: #000000;
+}
+/*pressed selected*/
+.button:pressed {
+	-fx-border-color: #7373B9;
+	-fx-effect: innershadow(gaussian, #7373B9, 10, 0, 0, 3);
+}
